@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns.Strategy;
+using System;
 
 namespace DesignPatterns
 {
@@ -6,7 +7,11 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Design Pattern Strategy");
+
+       //     ITax
+
+            Console.ReadKey();
         }
     }
 }
