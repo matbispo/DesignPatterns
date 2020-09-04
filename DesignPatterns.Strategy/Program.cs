@@ -10,6 +10,8 @@ namespace DesignPatterns.Strategy
 
             ITax iss = new ISS();
             ITax icms = new ICMS();
+            ITax iccc = new ICCC();
+
 
             Budget budget = new Budget(500.0);
 
@@ -19,6 +21,9 @@ namespace DesignPatterns.Strategy
             Console.WriteLine(taxIssCalculed.ToString());
 
             double taxICMSCalculate = taxCalculate.Calculate(budget, icms);
+            Console.WriteLine(taxICMSCalculate.ToString());
+
+            double taxICCCCalculate = taxCalculate.Calculate(budget, icms);
             Console.WriteLine(taxICMSCalculate.ToString());
 
             Console.ReadKey();

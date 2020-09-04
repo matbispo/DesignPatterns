@@ -8,7 +8,7 @@ namespace DesignPatterns.Strategy
     {
         public double Value { get; private set; }
 
-        public Budget( double value)
+        public Budget(double value)
         {
             setValue(value);
         }

@@ -5,7 +5,7 @@ namespace DesignPatterns.Strategy
     {
         public double Calculate(Budget budget)
         {
-            return budget.Value * 0.01;
+            return budget.Value * 0.05 + 50.0;
         }
     }
 }
